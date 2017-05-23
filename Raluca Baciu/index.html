@@ -6,14 +6,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <meta name="description" content="This is a fictional website about vintage clothing">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Ek+Mukta" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>The Vintage Online E-commerce Shop</title>   
     </head>
 
     <body>
+        <div class="main">
       <section>
+          
           <header>
-              <div>
-                  <img src="HTML5\CaseStudy\images\vintageHome.jpg">
+              <div class="backgroundImage">
+<!--                  <img src="HTML5\CaseStudy\images\vintageHome.jpg">-->
+                  <div class="menu">
                   <nav>
                       <ul>
                           <li><a href="#">HOME</a></li>
@@ -21,18 +29,22 @@
                           <li><a href="#">SALES</a></li>
                           <li><a href="#">ABOUT</a></li>
                           <li><a href="#">CONTACT</a></li>
+                          <li><a href="#"><button class="viewCart"><i class="fa fa-shopping-basket" aria-hidden="true"> view cart</i></button></a></li>
                           
                       </ul>
                   </nav>
-                  <div>
-                      <img src="HTML5/CaseStudy/images/mainLogoNew.jpg">
+              </div>
+                  <div class="logo">
+                      <img src="HTML5/CaseStudy/images/mainLogoNew.png">
                   </div>
-                  <div>
-                      <a href="#">New ARRIVALS</a>
+                  <div class="actionB">
+                      <a href="#"><button class="arrivals">NEW ARRIVALS</button>
                   </div>
-                  <div>
-                     <a href="#">
-                         <span>Button down</span>
+                      <div class="hand">
+                      <i class="fa fa-2x fa-hand-o-right" aria-hidden="true"></i></div>
+                  <div class="buttonD">
+                      <a href="#">
+                         <span class="spanButtonD"></span>
                       
                       </a>
                   </div>
@@ -43,122 +55,147 @@
               
           </header>
         </section>
-        <section>
-            <h1>Featured Products</h1>
-            <p>All the best and unique vintage collection at exclusive PRICES!</p>
-            <article>
+        
+        <section class="container" id="secondSection">
+            
+            <h1 class="sectionTitle">Featured Products</h1>
+            <p class="description">All the best and unique vintage collection at exclusive PRICES!</p>
+            <div class="firstRow">
+            <article class="productImage">
                 <img src="HTML5/CaseStudy/featuredProducts/image1.jpg">
-            </article>
+            
             <figcaption>Reclaimed Vintage Sweat Dress With Back Lace Up <strong>£65.00</strong></figcaption>
-            <article>
+            </article>
+            <article class="productImage">
                 <img src="HTML5/CaseStudy/featuredProducts/image2.jpg">
-            </article>
+           
             <figcaption>Reclaimed Vintage Inspired Off The Shoulder Swing Dress In Lace <strong>£40.00</strong></figcaption>
-            <article>
+            </article>
+            <article class="productImage">
                 <img src="HTML5/CaseStudy/featuredProducts/image3.jpg">
-            </article>
-            <figcaption>Reclaimed Vintage Revived Military Jacket With Rolling Stones Tour Back Print <strong>£65.00</strong></figcaption>
-            <article>
+            
+            <figcaption>Reclaimed Vintage Revived Military Jacket With Rolling Stones Tour Back Print <strong>£65.00</strong></figcaption></article>
+                </div>
+            <div class="firstRow">
+            <article class="productImage">
                 <img src="HTML5/CaseStudy/featuredProducts/image4.jpg">
-            </article>
-            <figcaption>Reclaimed Vintage Inspired Jacket And Trousers In Red Check <strong>FROM £113.00</strong></figcaption>
-            <article>
+           
+            <figcaption>Reclaimed Vintage Inspired Jacket And Trousers In Red Check <strong>FROM £113.00</strong></figcaption></article>
+            <article class="productImage">
                 <img src="HTML5/CaseStudy/featuredProducts/image5.jpg">
-            </article>
-            <figcaption>Reclaimed Vintage Revived Camo BDU Military Jacket <strong>£45.00</strong></figcaption>
-            <article>
+            
+            <figcaption>Reclaimed Vintage Revived Camo BDU Military Jacket <strong>£45.00</strong></figcaption></article>
+            <article class="productImage">
                 <img src="HTML5/CaseStudy/featuredProducts/image6.jpg">
-            </article>
-            <figcaption>Reclaimed Vintage Inspired Super Oversized Bomber Jacket In Black With Ram Back Print <strong>£105.00</strong></figcaption>
-        </section>
-        <section>
-          <h1>Promotion and Sales</h1>
-            <p>Drag the items to the shopping cart or click ADD TO CART and get up to 50% DISCOUNT!</p>
-            <article>
+           
+                <figcaption>Reclaimed Vintage Inspired Super Oversized Bomber Jacket In Black With Ram Back Print <strong>£105.00</strong></figcaption></article></div>
+                </section>
+            
+        <section class="container">
+             <h1 class="sectionTitle">Promotion and Sales</h1>
+            <p class="description">Drag the items to the shopping cart or click ADD TO CART and get up to 50% DISCOUNT!</p>
+            <div class="firstRow">
+            <article class="productImage">
                 <img src="HTML5/CaseStudy/salesProducts/trainers1.jpg">
-            </article>
-            <figcaption>Asics Gel-Lyte MT Winter Trainers <strong>£90.00</strong></figcaption>
-            <article>
-                <img src="HTML5/CaseStudy/salesProducts/trainers1.jpg">
-            </article>
-            <figcaption>adidas Originals Tubular Instinct BO Trainers  <strong>£81.00</strong></figcaption>
-            <article>
-                <img src="HTML5/CaseStudy/salesProducts/trainers1.jpg">
-            </article>
-            <figcaption>Vans Old Skool Trainers In Beige <strong>£52.00</strong></figcaption>
-            <div>
-               <p><strong>Shopping Cart</strong></p> 
-            </div>
-            <div>
-                <p><strong>PREMIER DELIVERY </strong>- UNLIMITED NEXT-DAY DELEVERY AND CLICK & COLLECT FOR £9.95 A YEAR</p>
-                <form>
-                    <div>
-                    <span>
-                    <p>Username: 
-                    <input type="text" name="username" maxlength="30" />
-                    </p>
-                    </span>
-                    <span>
-                    <p>Password: 
-                    <input type="text" name="username" maxlength="30" />
-                    </p>
-                    </span>
-                    </div>
-                    <span><input type="button" name="login" value="Login" /></span>
-                    <span><input type="button" name="register" value="Register" /></span>
-                    
-                </form>
-            </div>
-        </section>      
-        <section>
-            <div>
-                <img src="HTML5/CaseStudy/images/vintage.jpg">
-                <div>
-                <video src="HTML5/CaseStudy/video/vintageClothing.mp4" preload controls loop></video>
-                </div>
-                <div>
-                    <p>At Vintage Apparel Co. we provide superior customer service, with a commitment to deliver distinctive products of the highest quality. Our clothing and promotional items communicate a classic, retro influence. Keeping a watchful eye on trends and styles, our in-house graphic designers work to create a unique company, group or team identity – one that sets you apart from the rest.</p>
-                </div>
+            
+            <figcaption>Asics Gel-Lyte MT Winter Trainers <strong>£90.00</strong></figcaption></article>
+            <article class="productImage">
+                <img src="HTML5/CaseStudy/salesProducts/trainers2.jpg">
+            
+            <figcaption>adidas Originals Tubular Instinct BO Trainers  <strong>£81.00</strong></figcaption></article>
+            <article class="productImage">
+                <img src="HTML5/CaseStudy/salesProducts/trainers3.jpg">
+            
+            <figcaption>Vans Old Skool Trainers In Beige <strong>£52.00</strong></figcaption></article>
             </div>
         </section>
-        <section>
+            
+        <section class="container">
             <div>
-                <img src="HTML5/CaseStudy/images/vintage.jpg">
-                <form>
-                    <p>Name</p>
-                    <input type="text" name="name" />
-                    
-                    <p>Email</p>
-                    <input type="email" name="email" />
-                   
-                    <p>Message</p>
-                    <textarea name="message" cols="20" rows="5"></textarea>
-                    
-                    <input type="button" name="sendMessage" value="SEND MESSAGE" />
-                </form>
+                <h2>Shopping Cart</h2>
             </div>
             <div>
-                <img src="HTML5/CaseStudy/images/vintage.jpg">
-                <footer>
-                   <pre>
-                    Main Office
-
-                    The Vintage Apparel Company
-                    2nd Floor
-                    St. Clare House
-                    30-33 Minories
-                    London EC3N 1DD
-                   </pre>
-                    <p>0208 488 3444</p>
-                    <p>Email us</p>
-                    <div id="map">
-                    </div>
-                    <p>&copy;2017 The Vintage Appared Company</p>
-                </footer>
+                <p><strong>PREMIER DELIVERY </strong>- UNLIMITED NEXT-DAY DELEVERY AND CLICK &amp; COLLECT FOR £9.95 A YEAR</p>
+                <form>
+                  
+                    Username: <input type="text" name="username">
+                    Password: <input type="paswword" name="password"><br><br>
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>   
+                </form>
             </div>
             
         </section>
-    
+            
+        <section class="container">
+             <article>
+<!--                <img src="HTML5/CaseStudy/images/vintage.jpg">-->
+                 <div>
+                
+                <video src="HTML5/CaseStudy/video/vintageClothing.mp4" preload controls loop></video>
+                     </div>
+                
+                <div>
+                    <p>At Vintage Apparel Co. we provide superior customer service, with a commitment to deliver distinctive products of the highest quality. Our clothing and promotional items communicate a classic, retro influence. Keeping a watchful eye on trends and styles, our in-house graphic designers work to create a unique company, group or team identity – one that sets you apart from the rest.</p>
+                </div>
+            
+            </article>
+            </section>
+            
+            <section class="container">
+         <div>
+<!--                <img src="HTML5/CaseStudy/images/vintage.jpg">-->
+                <form>
+                    <label>Name: </label><br>
+                    <input type="text" name="name"><br>
+                    
+                    <label>Email: </label><br>
+                    <input type="email" name="email"><br>
+                   
+                    <label>Message: </label><br>
+                    <textarea name="message" cols="" style="resize:none" rows="5"></textarea><br>
+                    
+                    <button type="submit">Send Message</button>
+                    
+                </form>
+            </div>
+            </section>
+            
+            <section class="container">
+            <div>
+<!--                <img src="HTML5/CaseStudy/images/vintage.jpg">-->
+               
+                  
+                    <h3>Main Office</h3>
+                    <div>
+                    <address>
+                    <p>
+                    The Vintage Apparel Company<br>
+                    2nd Floor<br>
+                    St. Clare House<br>
+                    30-33 Minories<br>
+                    London EC3N 1DD<br>
+                    </p>
+                    </address>
+                    </div>
+                    <a href="#">Telephone: </a>
+                    <a href="#">Email: </a>
+                    
+                    <aside><p>Container for the google </p></aside>
+                </section>
+                 <footer>
+                     <div>
+                     
+                     </div>
+                    <div>
+                        <span>
+                    <p>&copy; 2017 The Vintage Appared Company</p>
+                            </span>
+                    </div>
+                </footer>
+            </div>
+        
+            </div>
     </body>
 
 </html>

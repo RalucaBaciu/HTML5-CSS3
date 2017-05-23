@@ -1,0 +1,197 @@
+/* -----------------------------------------------------------------------
+THE APPAREL COMPANY CSS STYLE FILE
+--------------------------------------------------------------------------*/
+
+/* -----------------------------------------------------------------------
+             WEBSITE COLOUR SHEME
+--------------------------------------------------------------------------*/
+
+/*
+First colou: rgba(54,91,70,1);
+Second colour: rgba(54,91,70,0.9);
+Third colour: rgba(159,12,16,1);
+Fourth colour: #444;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*---------------------------------------------------------------------
+             THE GLOBAL STYLES
+-----------------------------------------------------------------------*/
+/*
+*{
+    margin: 0;
+}
+*/
+body{
+    font-family: 'Ek Mukta',sans-serif;
+    font-size: 0.9em;
+    color: #444;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    
+    width: 100;
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    background-color: royalblue;
+    margin: auto;
+}
+/*img{
+    width: 100%;
+}*/
+
+/*---------------------------------------------------------------------
+             THE HOME STYLES
+-----------------------------------------------------------------------*/
+
+.backgroundImage{
+    background-image: url("../HTML5/CaseStudy/images/vintageHome.jpg");
+    background-position: center top;
+/*    If you change the backgraound-size to 100% the background image will be responsive to the screen size.*/
+    background-size: 100%;
+    height:100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment:fixed;
+    
+}
+.logo{
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+}
+.actionB{
+    position: absolute;
+    top: 70vh;
+    left: 15vw;
+    text-decoration: none;
+    
+    
+}
+.arrivals{
+    background-color: rgba(54,91,70,0.6);
+    padding: 15px 20px;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    cursor:pointer;
+    outline: none;
+    border: 2px solid rgba(54,91,70,1);
+}
+.arrivals:hover{
+    background-color: rgba(54,91,70,0.4);
+}
+.buttonD{
+    position: absolute;
+    bottom: 10vh;
+    left: 50vw;
+}
+.spanButtonD{
+    background-color: rgba(54,91,70,0.6);
+    padding: 15px 20px;
+    line-height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    cursor:pointer;
+    outline: none;
+    border: 2px solid rgba(54,91,70,1);
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    height: auto;
+    background-color:  rgba(54,91,70,0.9);
+    position: fixed;
+    padding: 10px 0;
+    
+}
+nav{
+    float: right;
+}
+nav li{
+    display:inline;
+    padding:0 10px 0 0;
+    
+}
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+nav a:hover{
+    color: rgba(255,255,255,1);
+    
+}
+.hand{
+    position: absolute;
+    bottom: 25vh;
+    left: 30vw;
+/*    color: rgba(255,255,255,0.8);*/
+    color: rgba(54,91,70,0.9);
+}
+.viewCart{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.7);
+    background-color:rgba(41,66,52,1); 
+    padding: 10px 20px;
+    border: rgba(54,91,70,1);
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+}
+.viewCart:hover{
+    color: rgba(255,255,255,1);
+    cursor: pointer;
+}
+.sectionTitle{
+    text-align: center;
+    margin-top: 50px;
+}
+.description{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.firstRow{
+    column-count: 3;
+    column-gap: 50px;
+    width: 80%;
+    margin: auto;
+/*    padding-left: 50px;*/
+/*    margin-right: 100px;*/
+}
+.productImage{
+   display: inline;
+    margin: auto;
+    
+}
+figcaption{
+    text-align: center;
+    width: 90%;
+}
+article img{
+    width: 100%;
+}
