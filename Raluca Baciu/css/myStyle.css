@@ -213,7 +213,7 @@ article img{
     margin-left: 20px;
 }
 .formCart{
-   height: 200px;
+    height: 200px;
     width: 80%;
     border: 1px solid #444;
     margin: auto; 
@@ -259,7 +259,7 @@ article img{
 .videoDiv{
     display: inline;
     margin: auto;
-   float: left;
+    float: left;
     position: absolute;
     width: 70%;
     top: 20vh;
@@ -273,10 +273,10 @@ article img{
     margin: auto;
     position: absolute;
     width: 300px;
-    height: 405px;
-    font-size: 1.6em;
+    height: 355px;
+    font-size: 1.5em;
     padding: 10px 20px;
-      float: left;
+    float: left;
     top: 20vh;
     left: 62vw;
      border-radius: 5px 5px 5px 5px;

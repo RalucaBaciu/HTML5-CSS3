@@ -1,0 +1,12 @@
+Responsive--->media queries
+
+1. META NAME="VIEWPORT"
+2. @MEDIA SCREEN/PRINT/PROJECTOR
+3. BREAK POINTS
+4. OVERRIDE YOUR MAIN CSS
+
+max-width:320px ---> 480px
+
+768px, 800px, 980px, 1280px, 1920px
+
+pixabay.com
