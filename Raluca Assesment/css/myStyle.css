@@ -1,17 +1,270 @@
+/*        THE ASSESMENT STYLE CSS*/
 
 
+/*------------------------
+            GLOBAL STYLES
+----------------------------*/
+body{
+    font-family: 'Slabo 27px', serif;
+    font-size: 1em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*
+.main{
+    position: relative;
+    width: 100%;
+}
+*/
 
-
+/*--------------------
+        TOP SECTION
+------------------------*/
 .top{
     column-count: 2;
+    width: 100%;
+    height: 100px;
 }
-.search{
+.logo{
+  left:5vw;
+    position: absolute;
+}
+.searchB{
+    position: absolute;
+    
+    padding: auto;
+    margin: auto;
+    
+    right: 10vw;
+    top:5vh;
     text-align: right;
 }
+.searchB input{
+    height: 30px;
+}
+.searchI{
+    
+    color: black;
+    background: linear-gradient(rgba(255,255,255,1),rgba(0,0,0,0.2));
+    margin: auto;
+    padding: 4px 8px;
+     border-radius: 0px 0px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
 .label{
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    top: 4vh;
+    right: 25vw;
     text-align: right;
     display: inline-block;
 }
-.searchB{
+
+.search{
     text-align: right;
+}
+
+/*-----------------------
+        NAV SECTION
+-------------------------*/
+.navSection{
+    background-color:#b57419;
+    color: white;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    margin-left: 0;
+   
+}
+.nav{
+    height: auto;
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    left: 100px;
+    text-align: left;
+    width: 20%;
+    float: left;
+}
+.menuItems{
+    
+    display: inline;
+    
+    width: 30%;
+    padding: 0%;
+    margin: 0%;
+}
+.menuItems a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+.menuItems li{
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.motto{
+    
+    position: absolute;
+    left: 58.7vw;
+    height: auto;
+    top:40vh;
+    font-size: 1.3em;
+    width: 400px;
+    background: rgba(0, 0, 0,0.5);
+    padding: 10px 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.bgImage{
+   
+    
+    float: left;
+    position: absolute;
+    top:0vh;
+    left: 25vw;
+    height: 400px;
+    overflow-x: hidden;
+    overflow: hidden; 
+}
+.contrast1{
+    position: absolute;
+    top:0vh;
+    left: 25vw;
+    height: 400px;
+    width: 200px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3))!important;
+}
+.contrast2{
+    position: absolute;
+    top:0vh;
+    left: 25vw;
+    height: 400px;
+    width: 150px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))!important;
+}
+
+li.contact{
+    border-bottom: 0px;
+}
+.play{
+    position: absolute;
+    right: 0vw;
+}
+
+.contentH{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 30px;
+    clear: both;
+    position: relative;
+    
+    
+}
+.articles{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 300px;
+    top: 0vh;
+/*    text-align: center;*/
+    margin: auto;
+    padding: auto;
+    padding-right:2%;
+    padding-left: 1%;
+    margin-bottom: 100px;
+    
+}
+.articlesl{
+   position: relative;
+    float: left;
+    width: 30%;
+    height: 300px;
+    top: 0vh;
+    text-align: right;
+    margin: auto;
+    padding: auto;
+    padding-right:2%;
+    padding-left: 1%; 
+    margin-bottom: 100px;
+}
+.contentA{
+    left: 4vw;
+    position: absolute;
+}
+.section1{
+    clear: both;
+    
+}
+.section2{
+    clear: both;
+    display: block;
+    margin-top: 100px;
+    top:90vh;
+    width: 100%;
+    background-color: #e8ae5c;
+    margin-bottom: 0;
+    
+}
+.sidebar{
+    background-color: #b57419;
+    transform: rotate(270deg);
+    text-align: right;
+    width: 300px;
+    padding: 10px 10px;
+    position: absolute;
+    left: -8vw;
+    top: 18vh;
+}
+.contentSection2{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    clear: both;
+    position: relative;
+}
+.welcomeC{
+    width: 60%;
+    position: relative;
+    float: left;
+    padding: auto;
+    margin: auto;
+    margin-right: 80px;
+}
+.socialMedia{
+    width: 30%;
+    position: relative;
+    float: left;
+    padding: auto;
+    margin: auto;
+}
+footer{
+    margin-top: 0;
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(255,255,255,1);
+}
+.footerC{
+    width: 80%;
+    column-count: 3;
+    margin: 0 auto;
+    padding: 20px 30px;
+    clear: both;
+    position: relative;
+}
+
+footer h3{
+    
+    padding-top: 30px;
+    padding-left: 150px;
 }
