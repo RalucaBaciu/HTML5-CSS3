@@ -918,3 +918,256 @@ footer {
         margin: 0 0 33px 0;
     }
 }
+
+@media screen and (max-width:768px){
+    
+    .bgImage div:not(:first-child):not(.actionB):not(.logoC){
+        display: none;
+    }
+    
+    .logoC{
+        left: 40px;
+    }
+    .actionB{
+        left: 20vw;
+        top: 60vh;
+        background-color: rgba(54, 91, 70, 0.8);
+    }
+    div .navC{
+        color: white;
+        opacity: 1;
+        width: 100%;
+        margin: 0%;
+        float: none;
+        display: block;
+        outline-style: none !important;
+        padding:10px 0 10px 9%;
+        
+    }
+   
+    .featuredP{
+        display: inline;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+        float: left;
+        align-content: center;
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -ms-column-count: 2;
+        -o-column-count: 2;
+    }
+    .productBox{
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    .productSales{
+        margin-bottom: 25px;
+        display: inline-block; 
+    }
+    
+    .container{
+        margin: auto;
+    }
+    
+    .holdingC{
+        width: 100%;
+        padding-left:0px;
+       
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    .shoppingB{
+        margin: auto;
+        padding: auto; 
+    }
+    .deliveryO{
+        margin: auto;
+        padding: auto;
+    }
+    .deliveryO input{
+        
+        margin-bottom: 10px;
+        margin-top: 5px;
+        width: 90%;
+        padding:5px;
+    }
+    
+   
+    
+    
+    div.videoC{
+        width: 100%;
+        clear: both;
+        padding: auto;
+        margin: auto;
+        display: block;
+        
+    }
+    .aboutText{
+        margin-top: 50px;
+        width: 90%;
+        clear: both;
+        display: block;
+    }
+}
+@media screen and (max-width:980px){
+    
+     .bgImage div:not(:first-child):not(.actionB):not(.logoC){
+        display: none;
+    }
+    
+    .logoC{
+        left: 40px;
+    }
+    .actionB{
+        left: 20vw;
+        top: 60vh;
+        background-color: rgba(54, 91, 70, 0.8);
+    }
+    div .navC{
+        color: white;
+        opacity: 1;
+        width: 100%;
+        margin: 0%;
+        float: none;
+        display: block;
+        outline-style: none !important;
+        padding: 0%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .featuredP{
+        display: inline;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+        float: left;
+        align-content: center;
+        column-count: 2;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -ms-column-count: 2;
+        -o-column-count: 2;
+    }
+    .productBox{
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    .productSales{
+        margin-bottom: 25px;
+        display: inline-block; 
+    }
+    
+    .container{
+        margin: auto;
+    }
+    
+    .holdingC{
+        width: 100%;
+        padding-left:0px;
+       
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    .shoppingB{
+        margin: auto;
+        padding: auto; 
+    }
+    .deliveryO{
+        margin: auto;
+        padding: auto;
+    }
+    .deliveryO input{
+        
+        margin-bottom: 10px;
+        margin-top: 5px;
+        width: 90%;
+        padding:5px;
+    }
+    
+   
+    
+    
+    div.videoC{
+        width: 100%;
+        clear: both;
+        padding: auto;
+        margin: auto;
+        display: block;
+        
+    }
+    .aboutText{
+        margin-top: 50px;
+        width: 90%;
+        clear: both;
+        display: block;
+    }
+}
+@media screen and (max-width:1280px){
+    .bgImage div:not(:first-child):not(.actionB):not(.logoC){
+        display: none;
+    }
+    div .navC{
+        color: white;
+        opacity: 1;
+        width: 100%;
+        margin: 0%;
+        float: none;
+        display: block;
+        outline-style: none !important;
+        padding: 0%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .container{
+        margin: auto;
+    }
+    
+    .holdingC{
+        width: 100%;
+        padding-left:0px;
+       
+        font-size: 1.2em;
+        overflow: hidden;
+    }
+    .shoppingB{
+        margin: auto;
+        padding: auto; 
+    }
+    .deliveryO{
+        margin: auto;
+        padding: auto;
+    }
+    .deliveryO input{
+        
+        margin-bottom: 10px;
+        margin-top: 5px;
+        width: 90%;
+        padding:5px;
+    }
+    
+   
+    
+    
+    div.videoC{
+        width: 100%;
+        clear: both;
+        padding: auto;
+        margin: auto;
+        display: block;
+        
+    }
+    .aboutText{
+        margin-top: 50px;
+        width: 90%;
+        clear: both;
+        display: block;
+    }
+}
+
+@media screen and (max-width:1280px){
+    
+}
