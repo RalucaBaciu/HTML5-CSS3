@@ -1,0 +1,17 @@
+
+
+
+
+.top{
+    column-count: 2;
+}
+.search{
+    text-align: right;
+}
+.label{
+    text-align: right;
+    display: inline-block;
+}
+.searchB{
+    text-align: right;
+}
