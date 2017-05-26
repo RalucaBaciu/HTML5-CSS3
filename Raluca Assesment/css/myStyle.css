@@ -60,7 +60,9 @@ body{
     color: black;
     background: linear-gradient(rgba(255,255,255,1),rgba(0,0,0,0.2));
     margin: auto;
-    padding: 4.6px 8px;
+    padding: 5px 8px;
+    position: absolute;
+    
      border-radius: 0px 0px 5px 0px;
     -moz-border-radius: 0px 5px 5px 0px;
     -webkit-border-radius: 0px 5px 5px 0px;
@@ -70,8 +72,12 @@ body{
     position: absolute;
     padding: auto;
     margin: auto;
+    margin-left: 100px;
     padding-top: 30px;
     margin-left: 250px;
+    left: 55vw;   
+    top: 4.5vh;
+    padding: 0;
 /*
     top: 4vh;
     right: 25vw;
@@ -93,6 +99,8 @@ body{
     width: 100%;
     background-size: cover;
     margin-left: 0;
+    margin-bottom: 20px;
+    display: block;
    
 }
 .nav{
@@ -125,7 +133,10 @@ body{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
+.menuItems li:hover{
+    font-size: 1.3em;
+    
+}
 .motto{
     
     position: absolute;
@@ -149,7 +160,7 @@ body{
     height: 400px;
     overflow-x: hidden;
     overflow: hidden;
-    width: 879px;
+    width: auto;
 }
 .contrast1{
     position: absolute;
@@ -171,10 +182,17 @@ body{
 li.contact{
     border-bottom: 0px;
 }
+
 .play{
     position: absolute;
     right: 0vw;
 }
+
+
+/*----------------------
+        HEADER ARTICLES
+---------------------------*/
+
 
 .contentH{
     width: 80%;
@@ -218,28 +236,20 @@ li.contact{
     position: absolute;
 }
 
-.section2{
-    clear: both;
-    display: block;
-    margin-top: 100px;
-    top:90vh;
-    width: 100%;
-    background-color: #e8ae5c;
-    margin-bottom: 0;
-    
-}
+
 .sidebar{
     background-color: #b57419;
     transform: rotate(270deg);
     text-align: right;
-    width: 300px;
+    width: 270px;
     padding: 10px 10px;
     position: absolute;
-    left: -8vw;
-    top: 18vh;
+    left: -7vw;
+    top: 13vh;
 }
 .articlesl #contactColummn{
     color: #965e10;
+   
 }
 #contactColummn a{
     text-decoration: none;
@@ -253,7 +263,49 @@ li.contact{
     display: inline-block;
 }
 .sideIcons i{
-    height: 20px;
+    width: 20px!important;
+    height:30px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.fa-comment{
+    font-size: 1.4em;
+    
+    position: absolute;
+    right: 0vw;
+    top:13vh;
+    
+}
+.fa-envelope{
+    font-size: 1.4em;
+     position: absolute;
+    right: 0vw;
+    top:7.5vh;
+}
+.sideIcons{
+    
+     width: 20px;
+    padding-top:0;
+    
+}
+.address{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+
+/*-------------------------
+SECTION 2
+------------------------*/
+.section2{
+    clear: both;
+    display: block;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    background-color: #e8ae5c;
+    margin-bottom: 0;
+    
 }
 .contentSection2{
     width: 80%;
@@ -263,6 +315,7 @@ li.contact{
     clear: both;
     position: relative;
 }
+
 .welcomeC{
     width: 60%;
     position: relative;
@@ -285,9 +338,115 @@ li.contact{
 .icons img{
     width: 110px;
     height: 40px;
-    margin-left: 200px;
+    margin-left: 280px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
+.icons img:hover{
+    width: 115px;
+    height: 45px;
+}
+
+
+/*----------------------
+        CONTACT FORM
+-----------------------*/
+
+.sectionn3{
+    width: 100%;
+    position: relative;
+    
+}
+.contactForm{
+   
+    height: 600px;
+    width: 100%;
+    position: relative;
+   
+    color: rgba(255,255,255,0.7);
+}
+
+.form{
+    width: 70%;
+   
+    height: auto;
+    padding: 20px 30px;
+    ;
+    position: relative;
+    margin: auto;
+}
+.labelForm{
+    padding: 20px 10px;
+    padding-bottom: 5px;
+    display: block;
+    font-size: 1.3em;
+    
+}
+.form input{
+    width: 100%;
+    margin: auto;
+    height: 30px;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    background-color: rgba(227,146,32,0.4);
+    border: 1px solid rgba(255,255,255,0.7);
+    color: white;
+}
+.form textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    display: block;
+    height: 150px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    background-color: rgba(227,146,32,0.4);
+    border: 1px solid rgba(255,255,255,0.7);
+    color: white;
+}
+
+.sendMessage{
+    padding: 15px 15px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(255,255,255,0.7);
+    background-color: rgba(48, 135, 77,0.8);
+     color: rgba(255,255,255,1); 
+    cursor: pointer;
+}
+.sendMessage:hover{
+    background-color: rgba(48, 135, 77,1);
+    color: rgb(255, 179, 0);
+}
+.myMap{
+    width: 70%;
+    margin: auto;
+    padding: 20px 30px;
+    position: relative;
+}
+#map {
+    width: 100%; 
+   
+    border: 5px solid rgba(48, 135, 77, 0.3);
+    height: 300px; 
+    margin-top: 25px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.castleBg{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/castle.jpg);
+   
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/*--------------------------
+        FOOTER STYLES
+-----------------------------*/
 footer{
     margin-top: 0;
     background-color: rgba(0,0,0,0.8);
@@ -340,4 +499,137 @@ footer li{
     border-bottom: 1px solid #e8c829;
     
     
+}
+
+@media screen and (max-width:480px){
+    .nav{
+    height: auto;
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    left: 3px;
+    text-align: left;
+    width: 55%;
+    float: left;
+}
+    .articles{
+    position: relative;
+    float: none;
+    width: 100%;
+    height: 300px;
+    top: 0vh;
+/*    text-align: center;*/
+    margin: auto;
+    padding: auto;
+    padding-right:2%;
+    padding-left: 1%;
+    margin-bottom: 50px;
+    
+}
+    .sidebar{
+    background-color: #b57419;
+    transform: rotate(270deg);
+    text-align: right;
+    width: 270px;
+    padding: 10px 10px;
+    position: absolute;
+    left: -33vw;
+    top: 23vh;
+        height: auto;
+}
+    div#contactColummn.contentA{
+        position: absolute;
+        font-size: 0.8em;
+        
+    }
+    .contrast1,.contrast2,.motto{
+        display: none;
+    }
+    .bgImage{
+        width: 300px;
+        left: 60vw;
+    }
+    .sideIcons i{
+        position: relative;
+    }
+    .contentA{
+        margin-left: 60px;
+    }
+    
+    .fa-comment{
+    font-size: 1.4em;
+    
+    position: relative;
+        display: inline-block;
+    right: 0vw;
+    top:0vh;
+    
+}
+.fa-envelope{
+    font-size: 1.4em;
+     position: relative;
+    display: inline-block;
+    right: 0vw;
+    top:0vh;
+}
+    .contentSection2{
+    width: 80%;
+    height: 950px;
+    margin: 0 ;
+    padding: 20px 30px;
+    clear: both;
+    position: relative;
+        text-align: center;
+}
+    .welcomeC{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 50px;
+        float: none;
+        
+        
+    }
+    .icons img{
+    
+    margin-left: 40px;
+    margin-bottom: 20px;
+        
+    
+}
+    .socialMedia{
+        float:none;
+        margin: 10px 20px;
+        width: 100%;
+    }
+   div.footerC{
+   
+    column-count:1;
+    
+}
+    .colummnFooter{
+    border-right: 0px;
+   
+    }
+   footer p{
+    padding: 0px;
+       text-align: center;
+       
+}
+    .logo{
+    left:0vw;
+    
+}
+    .searchB input{
+    width: 100px;
+}
+    .menuItems li:hover{
+    font-size: 1em;
+    
+}
+    footer h3{
+    
+    padding-top: 30px;
+    padding-left: 50px;
+        
+    margin-top: 0;
 }

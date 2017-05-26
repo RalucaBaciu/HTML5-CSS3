@@ -10,6 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/myStyle.css">
         <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
     </head>
     
@@ -46,6 +47,7 @@
                         </nav>
                         <div class="bgImage">
                             <img src="images/castle.jpg"></div>
+                            
                             <div class="contrast1">
                                 
                             </div>
@@ -57,25 +59,23 @@
                     
                     <div class="contentH">
                         <div class="articles">
-                            <div class="sidebar">AREA OF EXPERTISE</div>
+                            <h3 class="sidebar">AREA OF EXPERTISE</h3>
                             <div class="contentA">Malis incididunt et laboris, dolor commodo quo adipisicing. Ubi occaecat iis 
                                 officia. Expetendis et incididunt quo do velit transferrem. Veniam incurreret 
                                 doctrina. Id probant graviterque non quo doctrina ad commodo. Occaecat id ipsum 
                                 nostrud.</div>
                         </div>
                         <div class="articles">
-                            <div class="sidebar">ARTICLE</div>
+                            <h3 class="sidebar">ARTICLE</h3>
                             <div class="contentA">Admodum dolore enim de multos iis senserit enim id ingeniis adipisicing. Et 
                                 voluptate graviterque ita irure hic cupidatat. Incididunt dolore nam nostrud 
                                 imitarentur de si dolore tempor ad o ut culpa nescius, e quae concursionibus qui 
                                 nam illum vidisse quo offendit te fore cernantur non deserunt culpa nostrud hic 
                                 duis iudicem in minim sunt. Amet ubi quibusdam hic duis in nostrud ita quem. 
-                                Doctrina elit ad eiusmod relinqueret nam sunt reprehenderit incurreret legam 
-                                appellat. Quibusdam velit labore senserit elit, te ex minim malis dolore hic qui 
-                                qui quae senserit e anim consequat concursionibus. Iis voluptate ea ullamco.</div>
+                                 </div>
                         </div >
                         <div class="articlesl">
-                            <div class="sidebar">QUICK CONTACT</div>
+                            <h3 class="sidebar">QUICK CONTACT</h3>
                             <div class="contentA" id="contactColummn">
                                 <div>
                             <span>CALL US TODAY ON:<br>
@@ -83,24 +83,25 @@
                             <a href="tel:+44201234567">+44 (0)20 1234 567</a>
                                 
                                 </span>
-                                 <span class="sideIcons"><i class="fa  fa-mobile-phone"></i></span>
+                                 <span class="sideIcons"><i class="fa fa-3x fa-mobile-phone"></i></span>
                                 </div>
                                 <div>
                                     <span>
                             OR EMAIL US AT:<br>
                             <a href="mailto:postmaster@fdgforensics.com">POSTMASTER@FDGFORENSICS.COM</a></span>
-                                <span class="sideIcons"><i class="fa  fa-envelope"></i></span>
+                                <span class="sideIcons"><i class="fa   fa-envelope"></i></span>
                                     
                                     </div><br>
                                 <div>
                                     <span>
                             URGEBT INSTRUCTIONS SHOULD<br>BE GIVEN BY TELEPHONE</span>
-                                    <span class="sideIcons"><i class="fa  fa-comment"></i></span>
-                                    </div><br><br>
+                                    <span class="sideIcons"><i class="fa fa-comment"></i></span>
+                                    </div>
+                                <div class="address">
                             LONDON OFFICE<br>
                             110-112 FULL MOON ROAD<br>
                             BARTS CLOSE
-                            
+                            </div>
                             
                             </div>
                         </div>
@@ -108,8 +109,8 @@
             </div>
                 
         
-        
-            </header>
+        </header>
+            
         </section>
         
         <section class="section2">
@@ -128,7 +129,7 @@
                         Noster imitarentur voluptate enim laboris.</p>
                 </div>
                 <div class="socialMedia">
-                    <div class="sidebar">SOCIAL MEDIA</div>
+                    <h3 class="sidebar">SOCIAL MEDIA</h3>
                     <div class="icons">
                     <img src="images/Logo-2C-41px-R.png"><br>
                     <img src="images/app-store-logo.png"><br>
@@ -139,6 +140,32 @@
                 </div>
             </div>
              </section>
+        <div class="castleBg">
+        <section class="section3">
+            <div class="contactForm">
+                <div class="form">
+                <form>
+                    <label class="labelForm">NAME:</label><br>
+                    <input type="text" name="name"><br>
+                    <label class="labelForm">EMAIL:</label><br>
+                    <input type="email" name="email"><br>
+                    <label class="labelForm">MESSAGE:</label><br>
+                    <textarea rows="5" cols="" maxlength="999" style="resize:none"></textarea><br>
+                    <button type="submit" class="sendMessage">SEND MESSAGE</button>
+                
+                </form>
+                </div>
+            
+            
+            </div>
+        
+        <section class="section4">
+            <div class="myMap">
+            <div id="map"></div> 
+                </div>
+            </section>
+        </section>
+            </div>
             <footer>
                 <h3>SITEMAP</h3>
                 
@@ -203,7 +230,11 @@
         
         
         
-       
+       <script src="js/mainScript.js"></script>
+        
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0LlMm9MHNMZgNdoGMuMl-q39x2ZEWOC8&callback=initMap">
+        </script>
     
     </body>
 
