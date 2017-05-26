@@ -10,6 +10,14 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+.main{
+    
+    width: 100% !important;
+    height: 100vh;
+   
 }
 /*
 .main{
@@ -25,10 +33,14 @@ body{
     column-count: 2;
     width: 100%;
     height: 100px;
+    position: relative;
 }
 .logo{
-  left:5vw;
+    left:5vw;
     position: absolute;
+}
+.search{
+    text-align: right;
 }
 .searchB{
     position: absolute;
@@ -48,7 +60,7 @@ body{
     color: black;
     background: linear-gradient(rgba(255,255,255,1),rgba(0,0,0,0.2));
     margin: auto;
-    padding: 4px 8px;
+    padding: 4.6px 8px;
      border-radius: 0px 0px 5px 0px;
     -moz-border-radius: 0px 5px 5px 0px;
     -webkit-border-radius: 0px 5px 5px 0px;
@@ -58,15 +70,17 @@ body{
     position: absolute;
     padding: auto;
     margin: auto;
+    padding-top: 30px;
+    margin-left: 250px;
+/*
     top: 4vh;
     right: 25vw;
+*/
     text-align: right;
     display: inline-block;
 }
 
-.search{
-    text-align: right;
-}
+
 
 /*-----------------------
         NAV SECTION
@@ -134,7 +148,8 @@ body{
     left: 25vw;
     height: 400px;
     overflow-x: hidden;
-    overflow: hidden; 
+    overflow: hidden;
+    width: 879px;
 }
 .contrast1{
     position: absolute;
@@ -202,10 +217,7 @@ li.contact{
     left: 4vw;
     position: absolute;
 }
-.section1{
-    clear: both;
-    
-}
+
 .section2{
     clear: both;
     display: block;
@@ -226,9 +238,26 @@ li.contact{
     left: -8vw;
     top: 18vh;
 }
+.articlesl #contactColummn{
+    color: #965e10;
+}
+#contactColummn a{
+    text-decoration: none;
+    color: #edae57;
+}
+#contactColummn div{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#contactColummn span{
+    display: inline-block;
+}
+.sideIcons i{
+    height: 20px;
+}
 .contentSection2{
     width: 80%;
-    height: 400px;
+    height: 350px;
     margin: 0 auto;
     padding: 20px 30px;
     clear: both;
@@ -242,6 +271,10 @@ li.contact{
     margin: auto;
     margin-right: 80px;
 }
+.welcomeC h3{
+    color: #965e10;
+    margin-bottom: 30px;
+}
 .socialMedia{
     width: 30%;
     position: relative;
@@ -249,13 +282,19 @@ li.contact{
     padding: auto;
     margin: auto;
 }
+.icons img{
+    width: 110px;
+    height: 40px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
 footer{
     margin-top: 0;
     background-color: rgba(0,0,0,0.8);
     color: rgba(255,255,255,1);
 }
 .footerC{
-    width: 80%;
+    width: 70%;
     column-count: 3;
     margin: 0 auto;
     padding: 20px 30px;
@@ -267,4 +306,38 @@ footer h3{
     
     padding-top: 30px;
     padding-left: 150px;
+    margin-top: 0;
+}
+footer p{
+    padding-left: 150px;
+}
+.colummnFooter{
+    border-right: 1px solid white;
+    height: auto;
+    padding-right: 30px;
+   
+    
+}
+.title{
+    
+    padding: 0;
+}
+.contentFooter{
+    padding-left: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: #2668cc;
+    
+}
+#lastColummn{
+    border: 0px;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    border-bottom: 1px solid #e8c829;
+    
+    
 }
